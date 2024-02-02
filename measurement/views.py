@@ -24,4 +24,4 @@ class TemperatureMeasurementCreateView(generics.CreateAPIView):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response({'message': 'Success!'})
+    return Response({'message': 'Success Success Success!'})
